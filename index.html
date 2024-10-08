@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="an amazing freelance developer portfolio">
+    <title>Portfolio</title>
+
+    <!-- Font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/94e8b5035f.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scrollbar.css">
+</head>
+<body>
+    <!-- Nav Menu -->
+    <div class="nav-wrapper">
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar bar1"></div>
+            <div class="bar bar2"></div>
+            <div class="bar bar3"></div>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-container">
+        <!-- Home section -->
+         <section id="home">
+            <div class="slideshow">
+                <img src="./slidshow_images/image_2.png" alt="blue and purple colored image of a computer" class="slide active">
+                <img src="./slidshow_images/image_3.png" alt="blue and purple colored image of a computer" class="slide" loading="lazy">
+                <img src="./slidshow_images/image_4.png" alt="blue and purple colored image of a computer" class="slide" loading="lazy">
+            </div>
+            <div class="page-title">
+                <h1>Freelance WebDev</h1>
+            </div>
+            <div class="mouse"></div>
+         </section>
+
+        <!-- About -->
+          <section id="about" class="about">
+            <div class="about-container">
+                <div class="section-title">
+                    <h2>About</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="box1">
+                        <div class="text-box">
+                            <h3>Title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ullam quam saepe ut deleniti ipsum fugiat error dolorem? Qui placeat voluptatum quia saepe praesentium nobis culpa sed voluptates exercitationem quidem?</p>
+                        </div>
+                    </div>
+                    <div class="icon-box box2">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Quality Code</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, explicabo obcaecati?</p>
+                    </div>
+                    <div class="icon-box box3">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <h3>CSS Wizard</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, explicabo obcaecati?</p>
+                    </div>
+                    <div class="icon-box box4">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                        <h3>Ecommerce Development</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, explicabo obcaecati?</p>
+                    </div>
+                    <div class="icon-box box5">
+                        <i class="fa-solid fa-server"></i>
+                        <h3>API Integration</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, explicabo obcaecati?</p>
+                    </div>
+                    <div class="box6">
+                        <div class="text-box">
+                            <h3>Title</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quibusdam! Temporibus tempore soluta est officia impedit rem laborum ut quia deleniti, facere consequuntur esse. Maiores explicabo error aut nostrum laborum!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+        <!-- Projects -->
+           <section id="projects">
+            <div class="projects-container">
+                <div class="section-title">
+                    <h2>Projects</h2>
+                </div>
+                <div class="projects-grid">
+                    <div class="grid-item item1">
+                        <div class="mockup">
+                            <a href="https://dangelicer.github.io/Smart-Brain/" target="_blank">
+                                <img src="./mockups/smart_brain_mockup.png" alt="Smart Brain Project" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="link-container">
+                            <a href="https://github.com/dangelicer/Smart-Brain" class="github-link" target="_blank">GitHub</a>
+                            <a href="https://dangelicer.github.io/Smart-Brain/" class="live-link" target="_blank">Live Project</a>
+                        </div>
+                    </div>
+
+                    <div class="grid-item item2">
+                        <div class="mockup">
+                            <a href="https://dangelicer.github.io/typographix-blog/" target="_blank">
+                                <img src="./mockups/blog_mockup.png" alt="Smart Brain Project" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="link-container">
+                            <a href="https://github.com/dangelicer/typographix-blog" class="github-link" target="_blank">GitHub</a>
+                            <a href="https://dangelicer.github.io/typographix-blog/" class="live-link" target="_blank">Live Project</a>
+                        </div>
+                    </div>
+
+                    <div class="grid-item item3">
+                        <div class="mockup">
+                            <a href="https://dangelicer.github.io/typographix-gallary/" target="_blank">
+                                <img src="./mockups/gallery_mockup.png" alt="Smart Brain Project" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="link-container">
+                            <a href="https://github.com/dangelicer/typographix-gallary" class="github-link" target="_blank">GitHub</a>
+                            <a href="https://dangelicer.github.io/typographix-gallary/" class="live-link" target="_blank">Live Project</a>
+                        </div>
+                    </div>
+
+                    <div class="grid-item item4">
+                        <div class="mockup">
+                            <a href="https://dangelicer.github.io/typographix//" target="_blank">
+                                <img src="./mockups/typographix_mockup.png" alt="Smart Brain Project" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="link-container">
+                            <a href="https://github.com/dangelicer/typographix" class="github-link" target="_blank">GitHub</a>
+                            <a href="https://dangelicer.github.io/typographix/" class="live-link" target="_blank">Live Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </section>
+
+        <!-- Contact -->
+          <section id="contact">
+            <div class="contact-container">
+                <div class="section-title">
+                    <h2>Contact</h2>
+                </div>
+                <!-- Banner -->
+                 <a href="mailto:daniel.r.gagnon@outlook.com" class="banner-link">
+                    <div class="banner">
+                        <div class="banner-content" id="bannerContent"></div>
+                    </div>
+                 </a>
+            </div>
+
+            <!-- Footer -->
+            <footer>
+                <div class="icons-bar">
+                    <a href="https://www.upwork.com/freelancers/~011d066cb1e699a79e" target="_blank" title="icons_bar">
+                        <i class="fa-brands fa-facebook icons-bar-i"></i>
+                    </a>
+                    <a href="https://www.upwork.com/freelancers/~011d066cb1e699a79e" target="_blank" title="icons_bar">
+                        <i class="fa-brands fa-instagram icons-bar-i"></i>
+                    </a>
+                    <a href="https://www.upwork.com/freelancers/~011d066cb1e699a79e" target="_blank" title="icons_bar">
+                        <i class="fa-brands fa-x-twitter icons-bar-i"></i>
+                    </a>
+                    <a href="https://www.upwork.com/freelancers/~011d066cb1e699a79e" target="_blank" title="icons_bar">
+                        <i class="fa-brands fa-youtube icons-bar-i"></i>
+                    </a>
+                    <a href="https://www.upwork.com/freelancers/~011d066cb1e699a79e" target="_blank" title="icons_bar">
+                        <i class="fa-brands fa-github icons-bar-i"></i>
+                    </a>
+                </div>
+                <div class="footer-text">&copy; 2024 Freelance WebDev. All rights reserved.</div>
+            </footer>
+         </section>
+    </main>
+    
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
